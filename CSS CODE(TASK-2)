@@ -1,0 +1,42 @@
+#CSS CODE:
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background1.jpg');
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.task-form {
+    margin-bottom: 20px;
+}
+
+.task-form input[type="text"], .task-form select, .task-form input[type="date"], .task-form button {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.task-list {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.task {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.task:last-child {
+    border-bottom: none;
+}
